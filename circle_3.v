@@ -39,6 +39,10 @@ fn (mut app App) init() {
 			eprintln(err)
 			exit(1)
 		}
+		y := rand.f32_in_range(0.0, height) or {
+			eprintln(err)
+			exit(1)
+		}
 		radius := rand.f32_in_range(2.0, 15.0) or {
 			eprintln(err)
 			exit(1)
