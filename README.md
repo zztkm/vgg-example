@@ -1,0 +1,1 @@
+# vlang gg module example
